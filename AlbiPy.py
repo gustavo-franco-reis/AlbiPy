@@ -20,7 +20,7 @@ def local_ip():
 
 
 class datapoint:
-    """ Single market datapoint including all available data from the game's api"""
+    """ Ponto de dados do mercado único, incluindo todos os dados disponíveis da API do jogo"""
 
     def __init__(self, data):
         # data attribute
@@ -53,7 +53,7 @@ class datapoint:
 
 
 class sniffer_data:
-    """ Organized sniffed market data"""
+    """ Dados de mercado detectados organizados"""
 
     def __init__(self, logs, parsed, malformed):
         self.logs = logs[:]
